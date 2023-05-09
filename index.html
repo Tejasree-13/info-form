@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" style="background:rgb(225, 182, 255)">
+<head>
+    <meta charset="UTF-8">
+    <title>First Form</title>
+</head>
+<body>
+    <form action="mailto:tejasreemaddi3@gmail.com" enctype="text/plain" method="post">
+        <fieldset>
+        <legend>Personal Information Form</legend>
+        <label for="Your Name: ">Enter your Name: </label>
+        <input type="text" id="Your Name" name="Your Name" value="" placeholder="Your Name" required><br>
+        <label for="Your email: ">Enter Your email: </label>
+        <input type="email"id="Your email: " name="Your email: "value="" placeholder="Your email" required><br>
+        <label for="Your date of birth: ">Your Date of Birth: </label>
+        <input type="date"id="Your date of birth:" name="Your date of birth:" value="" required><br>
+        <label for="Your Phone number: ">Your Phone num: </label>
+        <input type="text"id="Your Phone number:" name="Your Phone number:" value="" placeholder="123-45-678" required><br>
+        <label for="Age: ">Choose your Age group: </label>
+        <select name="Age: " id="Age: " required>
+            <option value="0"></option>
+            <option value="1-15">1-15</option>
+            <option value="15-20">15-20</option>
+            <option value="20-30">20-30</option>
+            <option value="above 30">Above 30</option>
+        </select><br>
+        <label for="Message: ">Your Message: </label><br>
+        <textarea name="Message:" id="" cols="40" rows="5" required></textarea><br>
+        <input type="checkbox" id="terms: " name="terms: "value="Agreed" required>
+        <label for="terms: ">All the information entered by you is correct</label><br>
+        <center>
+        <input type="reset" value="Reset ">
+        <input type="submit" value="Submit">
+        </center>
+        </fieldset>
+    </form>    
+</body>
+</html>
